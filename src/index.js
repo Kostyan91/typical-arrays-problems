@@ -29,8 +29,10 @@ exports.avg = function avg(array) {
     if (!array ||  !array.length) {
         return 0;
     }
+    
     let sum = 0;
     for (i = 0; i < array.length; i++) {
+
         sum += array[i];
     }
 
